@@ -22,8 +22,11 @@
 		<Item Name="SQL Statements.ctl" Type="VI" URL="../SQL Statements.ctl"/>
 		<Item Name="Prepare SQL Statements_BW.vi" Type="VI" URL="../Prepare SQL Statements_BW.vi"/>
 		<Item Name="o.vi" Type="VI" URL="../../../PipiPics/o.vi"/>
-		<Item Name="Copy of Beltwatch SQLite.lvlib" Type="Library" URL="../../Copy of Beltwatch SQLite Folder/Beltwatch/BeltWatch 4-2-2-5/Database/Copy of Beltwatch SQLite.lvlib"/>
+		<Item Name="Copy of Beltwatch SQLite.lvlib" Type="Library" URL="../../../../../Beltwatch/SourceCode/SQLite/Copy of Beltwatch SQLite.lvlib"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../../../../Beltwatch/Untitled 2.vi"/>
+		<Item Name="SQlkite Template.lvlib" Type="Library" URL="../../../SQLite Template/Beltwatch/BeltWatch 4-2-2-5/Database/SQlkite Template.lvlib"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../../../Untitled Library 1.lvlib"/>
+		<Item Name="Beltwatch SQLite.lvlib" Type="Library" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/Database/Beltwatch SQLite.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -282,6 +285,7 @@
 				<Item Name="Librarian.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian.vi"/>
 				<Item Name="Get VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library File Info.vi"/>
 				<Item Name="Has LLB Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Has LLB Extension.vi"/>
+				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 			</Item>
 			<Item Name="BeltWatch Event.ctl" Type="VI" URL="../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Event.ctl"/>
 			<Item Name="BeltWatch 2D overlay.ctl" Type="VI" URL="../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch 2D overlay.ctl"/>
@@ -290,14 +294,28 @@
 			<Item Name="BeltWatch Event type.ctl" Type="VI" URL="../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Event type.ctl"/>
 			<Item Name="Events class.ctl" Type="VI" URL="../../../Beltwatch/BeltWatch 4-2-2-5/Events class.ctl"/>
 			<Item Name="Overlay mode.ctl" Type="VI" URL="../../../Beltwatch/BeltWatch 4-2-2-5/Overlay mode.ctl"/>
-			<Item Name="Tick Count with Error.vi" Type="VI" URL="../../../../Common64/Timing/Tick Count with Error.vi"/>
-			<Item Name="BeltWatch Event type.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/BeltWatch Event type.ctl"/>
-			<Item Name="BeltWatch Alarm Priority.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/BeltWatch Alarm Priority.ctl"/>
-			<Item Name="Events class.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/Events class.ctl"/>
-			<Item Name="BeltWatch Event.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/BeltWatch Event.ctl"/>
-			<Item Name="BeltWatch Reading.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/BeltWatch Reading.ctl"/>
-			<Item Name="BeltWatch 2D overlay.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/BeltWatch 2D overlay.ctl"/>
-			<Item Name="Overlay mode.ctl" Type="VI" URL="../../../../Beltwatch/SourceCode/Overlay mode.ctl"/>
+			<Item Name="Tick Count with Error.vi" Type="VI" URL="../../../../../Common64/Timing/Tick Count with Error.vi"/>
+			<Item Name="SQ Lite Globals.vi" Type="VI" URL="../../../../../Common64/Database/SQ Lite/SQ Lite Globals.vi"/>
+			<Item Name="BeltWatch Event type.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Event type.ctl"/>
+			<Item Name="BeltWatch Alarm Priority.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Alarm Priority.ctl"/>
+			<Item Name="Events class.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/Events class.ctl"/>
+			<Item Name="SQL Statements.ctl" Type="VI" URL="../../../../../SQLite Demo LV2013/SQLite Demo LV2013/SQL Statements.ctl"/>
+			<Item Name="Prepare SQL Statement for Cluster.vi" Type="VI" URL="../../../../../SQLite Demo LV2013/SQLite Demo LV2013/Prepare SQL Statement for Cluster.vi"/>
+			<Item Name="BeltWatch Event.ctl" Type="VI" URL="../../../../../Beltwatch/SourceCode/BeltWatch Event.ctl"/>
+			<Item Name="BeltWatch Event type.ctl" Type="VI" URL="../../../../../Beltwatch/SourceCode/BeltWatch Event type.ctl"/>
+			<Item Name="BeltWatch Reading.ctl" Type="VI" URL="../../../../../Beltwatch/SourceCode/BeltWatch Reading.ctl"/>
+			<Item Name="BeltWatch Alarm Priority.ctl" Type="VI" URL="../../../../../Beltwatch/SourceCode/BeltWatch Alarm Priority.ctl"/>
+			<Item Name="BeltWatch 2D overlay.ctl" Type="VI" URL="../../../../../Beltwatch/SourceCode/BeltWatch 2D overlay.ctl"/>
+			<Item Name="Overlay mode.ctl" Type="VI" URL="../../../../../Beltwatch/SourceCode/Overlay mode.ctl"/>
+			<Item Name="BeltWatch Reading.ctl" Type="VI" URL="../../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Reading.ctl"/>
+			<Item Name="Overlay mode.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/Overlay mode.ctl"/>
+			<Item Name="BeltWatch 2D overlay.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch 2D overlay.ctl"/>
+			<Item Name="BeltWatch Event.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Event.ctl"/>
+			<Item Name="BeltWatch Reading.ctl" Type="VI" URL="../../../../../Beltwatch/BeltWatch 4-2-2-5/BeltWatch Reading.ctl"/>
+			<Item Name="BeltWatch Event type.ctl" Type="VI" URL="../../../../../../../../Beltwatch/SourceCode/BeltWatch Event type.ctl"/>
+			<Item Name="BeltWatch Alarm Priority.ctl" Type="VI" URL="../../../../../../../../Beltwatch/SourceCode/BeltWatch Alarm Priority.ctl"/>
+			<Item Name="Events class.ctl" Type="VI" URL="../../../../../../../../Beltwatch/SourceCode/Events class.ctl"/>
+			<Item Name="BW Create DB.vi" Type="VI" URL="../../../../../SQLite Demo LV2013/SQLite Demo LV2013/BW Create DB.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
